@@ -1,7 +1,7 @@
-@import url(./cover__title.css);
-@import url(./cover__subtitle.css);
-@import url(./cover__image.css);
-@import url(./cover__overlay.css);
+@import url(./__title/cover__title.css);
+@import url(./__subtitle/cover__subtitle.css);
+@import url(./__overlay/cover__overlay.css);
+@import url(./__image/cover__image.css);
 .cover {
     background-image: url(../../images/cover-trains.jpg);
     max-width: 1184px;
