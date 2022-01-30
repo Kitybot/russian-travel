@@ -1,0 +1,22 @@
+@import url(./header__logo.css);
+@import url(./header__lang-link.css);
+@import url(./header__links.css);
+.header {
+  max-width: 1184px;
+  display: flex;
+  justify-content: space-between;
+  padding: 28px 48px 0;
+}
+  
+@media screen and (max-width: 768px) {
+  .header {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+  
+@media screen and (max-width: 320px) {
+  .header {
+    padding: 16px 16px 0;
+  }
+}
