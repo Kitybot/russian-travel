@@ -16,5 +16,5 @@
 
 **Ссылка на гит**
 
-Тут работа https://github.com/Kitybot/russian-travel
+Тут работа https://kitybot.github.io/russian-travel/
 
