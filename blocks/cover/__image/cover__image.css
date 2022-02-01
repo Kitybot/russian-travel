@@ -1,7 +1,0 @@
-.cover__image:hover {
-  background: rgba(42, 44, 47, .8);
-}
-.cover__image{
-  background: rgba(42, 44, 47, .3);
-  transition: 0.4s;
-}
