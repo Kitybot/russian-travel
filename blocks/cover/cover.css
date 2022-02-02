@@ -1,7 +1,3 @@
-@import url(./__title/cover__title.css);
-@import url(./__subtitle/cover__subtitle.css);
-@import url(./__overlay/cover__overlay.css);
-@import url(./__link/cover__link.css);
 .cover {
     background-image: url(../../images/cover-trains.jpg);
     max-width: 1184px;
@@ -11,3 +7,18 @@
     flex-direction: column;
     background-position: center;
 }
+@media all and (max-width: 1024px) {
+    .cover  {
+      max-width: 1024px;
+    }
+  }
+  @media all and (max-width: 768px) {
+    .cover  {
+      max-width: 768px;
+    }
+  }
+  @media all and (max-width: 320px) {
+    .cover{
+        max-width: 320px;
+    }
+  }
