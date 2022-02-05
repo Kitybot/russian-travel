@@ -25,17 +25,28 @@
       column-gap: 28px;
       padding-left: 24px;
       padding-right: 24px;
-      padding-bottom: 90px;
+      padding-bottom: 73px;
     }
 }
 .place:last-child {
       padding-bottom: 90px;
 }
-@media all and (max-width: 320px) {
+@media all and (max-width: 650px) {
+  .place {
+    grid-template-columns: 320px;
+    justify-content: center;
+    row-gap: 32px;
+  }
+}
+@media all and (max-width: 450px) {
     .place {
       grid-template-columns: 320px;
       justify-content: center;
       row-gap: 32px;
+      padding-bottom: 50px;
     }
+}
+.place:last-child {
+  padding-bottom: 66px;
 }
   
