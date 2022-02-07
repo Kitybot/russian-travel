@@ -5,23 +5,19 @@
   max-width: 360px;
   margin: 0 auto;
   font-weight: normal;
-  padding-bottom: 245px;
+  padding-bottom: calc((100% * 0.625 - 250px) / 2);
 }
-@media all and (max-width: 1024px) {
-  .cover__subtitle  {
-    padding-bottom: 195px;
-  }
-}
+
 @media all and (max-width: 700px) {
   .cover__subtitle  {
-    padding-bottom: 213px;
+    padding-bottom: calc((100% * 0.625 - 218px) / 2);
   }
 }
-@media all and (max-width: 450px) {
+@media all and (max-width: 425px) {
   .cover__subtitle  {
     font-size: 14px;
     line-height: 16px;
-    padding-bottom: 33px;
-    min-width: 288px;
+    padding-bottom: calc((100% * 0.625 - 134px) / 2);
+    max-width: 288px;
   }
 }
